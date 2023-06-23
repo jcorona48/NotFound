@@ -28,7 +28,7 @@ section main{
     height: 100%;
     padding: 0 10px;
     padding-bottom: 80px;
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         grid-template-columns: 1fr; 
     }
 }
@@ -42,7 +42,7 @@ section main picture{
     align-items: end;
     justify-content: end;
 
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         grid-column: 1 / span 2; 
     }
 }
@@ -55,7 +55,7 @@ section main div{
     display: grid;
     grid-template-rows: max-content max-content max-content;
     gap: 40px;
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         grid-column: 1 / span 2; 
     }
     
@@ -64,7 +64,7 @@ section main picture img{
     width: 100%;
     max-width: 500px;
     min-width: 200px;
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         width: 100%;
     }
 }
@@ -72,7 +72,7 @@ section main picture img{
 h1{
     font-size: 40px;
     margin: 0;
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         font-size: 30px;
     }
 }
@@ -82,7 +82,7 @@ p{
     width: 100%;
     max-width: 250px;
     font-size: 20px;
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
         width: 100%;
         font-size: 18px;
     }
